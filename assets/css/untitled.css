@@ -1,0 +1,19 @@
+.myTable {
+  padding: 15px;
+}
+
+.myTbody {
+  text-align: center;
+}
+
+.myRow {
+  text-align: center;
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
+}
+
+.myAddBtn {
+  align-items: center;
+  text-align: center;
+}
+
