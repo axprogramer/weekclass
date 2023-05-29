@@ -136,24 +136,18 @@ function Fillbox(index) {
     BtnDele.style.display = 'inline-block';
   }
 }
+NewBox();
 function NewBox() {
   BtnSubmit.style.display = 'inline-block';
   BtnUpdate.style.display = 'none';
   BtnDele.style.display = 'none';
+  BtnClearBox.style.display = 'none';
 
   var Mid = document.getElementById('myid');
   var Mdate = document.getElementById('myDate');
-  var Mtimes = document.getElementById('myTimes');
-  var Mweeks = document.getElementById('myWeeks');
-  var Mmonth = document.getElementById('myMonth');
-  var Mother = document.getElementById('myother');
 
   Mid.value = "";
   Mdate.value = "";
-  Mtimes.value = "";
-  Mweeks.value = "";
-  Mmonth.value = "";
-  Mother.value = "";
 }
 
 function AddStd(e) {

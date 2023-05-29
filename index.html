@@ -79,7 +79,7 @@
             </tr>
         </table>
     </div>
-    <div class="modal-body">
+    <div class="modal-body myTable2">
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="control-group">
                 <div class="table-responsive">
@@ -97,6 +97,7 @@
                             <td id="myFirstTable">
                                 <div class="control-group" style="text-align: center;"><select class="form-select"
                                         id="myTimes" style="height: 58px;color: #7d4e39;font-size: 14px; height: 45px;">
+                                        <option selected>Times</option>
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -113,6 +114,7 @@
                             <td id="myFirstTable">
                                 <div class="control-group" style="text-align: center;"><select class="form-select"
                                         id="myMonth" style="height: 58px;color: #7d4e39;font-size: 14px; height: 45px;">
+                                        <option selected>Month</option>
                                         <option value="January">January</option>
                                         <option value="February">February</option>
                                         <option value="March">March</option>
@@ -130,12 +132,9 @@
 
                             </td>
                             <td id="myFirstTable">
-                                <input class="form-control" type="text" placeholder="Other" name="myOther" id="myother"
-                                    style="font-size: 14px;font-weight: bold;color: #7d4e39; height: 45px; background-color:rgba(254, 254, 254, 0.718);">
-                            </td>
-                            <td id="myFirstTable">
                                 <div class="control-group" style="text-align: center;"><select class="form-select"
                                         id="myWeeks" style="height: 58px;color: #7d4e39;font-size: 14px; height: 45px;">
+                                        <option selected>Week</option>
                                         <option value="01">01</option>
                                         <option value="02">02</option>
                                         <option value="03">03</option>
@@ -144,6 +143,13 @@
                                 </div>
                             </td>
 
+                        </tr>
+                    </table>
+                    <table>
+                        <tr id="myFirstTable">
+                            <td id="myFirstTable">
+                                <textarea name="myother" id="myother" cols="55" rows="5" class="table1"></textarea>
+                                </td>
                         </tr>
                     </table>
                 </div>
@@ -161,7 +167,7 @@
                 </div>
         </form>
     </div>
-    <div class="table-responsive">
+    <div class="table-responsive myTable2">
         <table class="table table-striped table-hover myFirstTable myTrv">
             <thead class="table-success myTr">
                 <td class="myTrv" >N0</td>
